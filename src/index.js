@@ -5,3 +5,4 @@ import "./arrays/shuffleArray";
 import "./arrays/numberOfGoodPairs";
 import "./bitwise/numberOfStepsReduceZero";
 import "./tree/preOrder";
+import "./tree/inOrder";

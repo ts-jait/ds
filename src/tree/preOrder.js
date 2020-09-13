@@ -6,7 +6,7 @@
  *     this.right = (right===undefined ? null : right)
  * }
  */
-function TreeNode(val, left, right) {
+function preOrderTreeNode(val, left, right) {
   this.val = val === undefined ? 0 : val;
   this.left = left === undefined ? null : left;
   this.right = right === undefined ? null : right;
@@ -42,11 +42,11 @@ var preorderTraversalLoop = function (root) {
   }
   return res;
 };
-const root = new TreeNode(
+const preorder_root = new preOrderTreeNode(
   1,
   undefined,
-  new TreeNode(2, new TreeNode(3), undefined)
+  new preOrderTreeNode(2, new preOrderTreeNode(3), undefined)
 );
 
-console.log(preorderTraversal(root));
-console.log(preorderTraversalLoop(root));
+console.log(preorderTraversal(preorder_root));
+console.log(preorderTraversalLoop(preorder_root));
