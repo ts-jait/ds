@@ -44,10 +44,10 @@ var postorderTraversalLoop = function (root) {
   return res.reverse();
 };
 
-const postTree = new postTreeNode(
+/*const postTree = new postTreeNode(
   1,
   undefined,
   new postTreeNode(2, new postTreeNode(3))
-);
+);*/
 // console.log(postorderTraversal(postTree));
-console.log(postorderTraversalLoop(postTree));
+// console.log(postorderTraversalLoop(postTree));
