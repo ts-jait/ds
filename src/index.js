@@ -6,3 +6,4 @@ import "./arrays/numberOfGoodPairs";
 import "./bitwise/numberOfStepsReduceZero";
 import "./tree/preOrder";
 import "./tree/inOrder";
+import "./tree/postOrder";
