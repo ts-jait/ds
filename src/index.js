@@ -8,3 +8,5 @@ import "./tree/preOrder";
 import "./tree/inOrder";
 import "./tree/postOrder";
 import "./tree/levelOrder";
+import "./tree/maxDepth";
+import "./tree/treeNode";
