@@ -30,5 +30,5 @@ const tree1 = new TreeNode(
   new TreeNode(2, undefined, new TreeNode(3)),
   new TreeNode(2, undefined, new TreeNode(3))
 );
-console.log(isSymmetric(tree));
-console.log(isSymmetric(tree1));
+// console.log(isSymmetric(tree));
+// console.log(isSymmetric(tree1));
