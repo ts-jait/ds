@@ -11,3 +11,4 @@ import "./tree/levelOrder";
 import "./tree/maxDepth";
 import "./tree/treeNode";
 import "./tree/isSymmetric";
+import "./tree/hasPathSum";
