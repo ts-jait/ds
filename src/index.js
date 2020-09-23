@@ -12,3 +12,4 @@ import "./tree/maxDepth";
 import "./tree/treeNode";
 import "./tree/isSymmetric";
 import "./tree/hasPathSum";
+import "./tree/uniValue";
