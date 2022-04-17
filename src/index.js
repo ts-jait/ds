@@ -13,3 +13,4 @@ import "./tree/treeNode";
 import "./tree/isSymmetric";
 import "./tree/hasPathSum";
 import "./tree/uniValue";
+import "./bst/binarySearch";
