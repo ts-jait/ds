@@ -22,5 +22,5 @@ var binarySearch = function (nums, target) {
   return -1;
 };
 
-console.log(binarySearch([-1, 0, 3, 5, 9, 12], 9));
+// console.log(binarySearch([-1, 0, 3, 5, 9, 12], 9));
 // console.log(binarySearch([-1, 0, 3, 5, 9, 12], 2));
